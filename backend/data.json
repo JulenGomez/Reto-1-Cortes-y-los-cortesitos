@@ -6,5 +6,13 @@
   "Cosas que nunca haremos": "Llegar tarde y dejar un trabajo sin entregar",
   "Como tomamos decisiones": "Cortes decide el destino de los cortesitos",
   "Que hacemos cuando se rompen las reglas": "comprar una unidad de croquetas de la universidad a cada participante",
-  "Cuando y como pedimos ayuda": "siempre que la necesitamos, pedir ayuda no es malo"
+  "Cuando y como pedimos ayuda": "siempre que la necesitamos, pedir ayuda no es malo",
+    
+  "firmas": {
+    "Iker": false,
+    "Dani": false,
+    "Lander": false,
+    "Julen": false,
+    "Ander": false
+  }
 }
