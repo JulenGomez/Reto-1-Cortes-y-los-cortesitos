@@ -51,3 +51,33 @@ async def firmar(req: FirmaRequest):
     save_data(data)
 
     return {"mensaje": f"Firma actualizada para {req.nombre}", "firmas": data["firmas"]}
+
+
+
+
+
+
+# Modelo actualizado para competencias múltiples
+class HabilidadRequest(BaseModel):
+    nombre: str
+    competencias_tecnicas: dict  # {"ERP/Odoo": {"fortalezas": "...", "necesidades": "..."}, ...}
+    competencias_transversales: dict
+
+@app.post("/api/habilidades")
+async def guardar_habilidades(req: HabilidadRequest):
+    data = load_data()
+    if "habilidades" not in data:
+        data["habilidades"] = {}
+
+    # Guardar o actualizar el registro de esa persona
+    data["habilidades"][req.nombre] = {
+        "competencias_tecnicas": req.competencias_tecnicas,
+        "competencias_transversales": req.competencias_transversales
+    }
+
+    save_data(data)
+
+    return {
+        "mensaje": f"Habilidades guardadas para {req.nombre}",
+        "habilidades": data["habilidades"]
+    }

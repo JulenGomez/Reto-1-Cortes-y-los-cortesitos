@@ -1,0 +1,116 @@
+/* Contenedor principal */
+.form-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f0f4ff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 128, 0.08);
+  font-family: "Inter", sans-serif;
+}
+
+/* Títulos */
+.form-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+}
+
+.form-container h2 {
+  font-size: 1.25rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #93c5fd;
+  padding-bottom: 0.25rem;
+}
+
+.form-container h3 {
+  font-size: 1rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem; /* más espacio bajo título de cada competencia */
+}
+
+/* Formulario */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grupos de inputs */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Inputs y select */
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #3b82f6;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Bloques de competencia */
+.competencia-block {
+  border: 1px solid #3b82f6;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background-color: #e0efff;
+  margin-bottom: 1rem; /* espacio consistente entre bloques */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* espacio uniforme entre elementos dentro del bloque */
+}
+
+/* Textarea fijo */
+textarea {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #3b82f6;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  background-color: #ffffff;
+  color: #1f2937;
+  resize: none; /* no se puede redimensionar */
+  height: 50px; /* altura fija */
+  margin-bottom: 0.5rem; /* espacio entre textareas y labels */
+  box-sizing: border-box; /* incluye padding dentro de la altura */
+}
+
+/* Botón */
+.form-container button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 1rem;
+}
+
+.form-container button:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+}
+
+/* Mensaje de estado */
+.form-status {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #1e3a8a;
+  margin-top: 1rem;
+}
