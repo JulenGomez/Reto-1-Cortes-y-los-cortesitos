@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -8,42 +7,10 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # en producción mejor poner solo tu dominio
-=======
-from fastapi import FastAPI
-from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
-import json
-
-app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # O especifica ["http://localhost:5500"] si usas Live Server
->>>>>>> Stashed changes
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-<<<<<<< Updated upstream
-=======
-
-# Define el esquema de los 14 campos
-class FormData(BaseModel):
-    campo1: str
-    campo2: str
-    campo3: int
-    campo4: float
-    campo5: str
-    campo6: str
-    campo7: bool
-    campo8: str
-    campo9: str
-    campo10: int
-    campo11: str
-    campo12: float
-    campo13: str
-    campo14: str
->>>>>>> Stashed changes
 
 @app.post("/api/datos")
 async def recibir_datos(request: Request):
@@ -63,13 +30,13 @@ async def recibir_datos(request: Request):
     return {
         "mensaje": "Datos recibidos correctamente",
         "datos": {
-            "Quienes somos y que hacemos": quienes_somos,
-            "Nuestro objetivo": objetivo,
-            "Nuestros principios": principios,
-            "Nuestras normas": normas,
-            "Cosas que nunca haremos": cosas_nunca,
-            "Como tomamos decisiones": decisiones,
-            "Que hacemos cuando se rompen las reglas": reglas_rotas,
-            "Cuando y como pedimos ayuda": pedir_ayuda
+            "whoWeAre": quienes_somos,
+            "purpose": objetivo,
+            "values": principios,
+            "alwaysDo": normas,
+            "neverDo": cosas_nunca,
+            "decisions": decisiones,
+            "rulesBroken": reglas_rotas,
+            "askHelp": pedir_ayuda
         }
     }
