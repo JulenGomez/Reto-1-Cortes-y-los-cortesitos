@@ -1,41 +1,42 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
-import json
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# Define el esquema de los 14 campos
-class FormData(BaseModel):
-    campo1: str
-    campo2: str
-    campo3: int
-    campo4: float
-    campo5: str
-    campo6: str
-    campo7: bool
-    campo8: str
-    campo9: str
-    campo10: int
-    campo11: str
-    campo12: float
-    campo13: str
-    campo14: str
+# Para permitir que el frontend (React, etc.) pueda hacer requests
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # en producción mejor poner solo tu dominio
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-@app.post("/guardar")
-async def guardar_datos(data: FormData):
-    # Convertimos a dict
-    datos_dict = data.model_dump()
+@app.post("/api/datos")
+async def recibir_datos(request: Request):
+    data = await request.json()
 
-    # Guardamos en un archivo .json (acumula múltiples entradas)
-    try:
-        with open("datos.json", "r", encoding="utf-8") as f:
-            existentes = json.load(f)
-    except FileNotFoundError:
-        existentes = []
+    # Extraer todos los campos
+    quienes_somos = data.get("Quienes somos y que hacemos")
+    objetivo = data.get("Nuestro objetivo")
+    principios = data.get("Nuestros principios")
+    normas = data.get("Nuestras normas")
+    cosas_nunca = data.get("Cosas que nunca haremos")
+    decisiones = data.get("Como tomamos decisiones")
+    reglas_rotas = data.get("Que hacemos cuando se rompen las reglas")
+    pedir_ayuda = data.get("Cuando y como pedimos ayuda")
 
-    existentes.append(datos_dict)
-
-    with open("datos.json", "w", encoding="utf-8") as f:
-        json.dump(existentes, f, indent=4, ensure_ascii=False)
-
-    return {"status": "ok", "mensaje": "Datos guardados correctamente"}
+    # Retornamos una respuesta con todos los datos recibidos
+    return {
+        "mensaje": "Datos recibidos correctamente",
+        "datos": {
+            "Quienes somos y que hacemos": quienes_somos,
+            "Nuestro objetivo": objetivo,
+            "Nuestros principios": principios,
+            "Nuestras normas": normas,
+            "Cosas que nunca haremos": cosas_nunca,
+            "Como tomamos decisiones": decisiones,
+            "Que hacemos cuando se rompen las reglas": reglas_rotas,
+            "Cuando y como pedimos ayuda": pedir_ayuda
+        }
+    }
