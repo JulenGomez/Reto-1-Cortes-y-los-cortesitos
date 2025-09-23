@@ -16,7 +16,6 @@
     <ul class="menu">
       <li><a href="#scrum-canvas">Scrum Team Charter Canvas</a></li>
       <li><a href="#norms-rules">Our Norms & Rules</a></li>
-      <li><a href="#scrum">Scrum</a></li>
       <li><a href="#strengths-weaknesses">Team Strengths & Weaknesses</a></li>
     </ul>
   </nav>
@@ -24,7 +23,7 @@
   <!-- Main content -->
   <main id="main-content">
     <h1 id="scrum-canvas">Scrum Team Charter Canvas</h1>
-    <form action="/submit-canvas" method="POST">
+    <form if="canvasForm"     pip install uvicornaction="/submit-canvas" method="POST">
 
       <label for="teamName" class="teamName">Team Name: Cortés y los Cortesitos</label>
 
@@ -55,19 +54,6 @@
       <label for="raiseIssues">When & How Do We Raise Issues / Ask For Help?</label>
       <textarea name="raiseIssues" id="raiseIssues" rows="2"></textarea>
 
-      <h2 id="scrum">Scrum</h2>
-
-      <label for="sprintBacklog">How Will We Keep The Sprint Backlog Updated?</label>
-      <textarea name="sprintBacklog" id="sprintBacklog" rows="2"></textarea>
-
-      <label for="increment">How We Ensure An Increment Is Created Each Sprint?</label>
-      <textarea name="increment" id="increment" rows="2"></textarea>
-
-      <label for="boundaries">What Are The Boundaries Of Our Self-Management?</label>
-      <textarea name="boundaries" id="boundaries" rows="2"></textarea>
-
-      <label for="scrumOther">Other Scrum Notes:</label>
-      <textarea name="scrumOther" id="scrumOther" rows="2"></textarea>
 
       <h2 id="strengths-weaknesses">Team Strengths & Weaknesses</h2>
 
