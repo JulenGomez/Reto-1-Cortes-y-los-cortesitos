@@ -8,11 +8,11 @@
   "Que hacemos cuando se rompen las reglas": "comprar una unidad de croquetas de la universidad a cada participante",
   "Cuando y como pedimos ayuda": "siempre que la necesitamos, pedir ayuda no es malo",
   "firmas": {
-    "Iker": false,
-    "Dani": false,
-    "Lander": false,
-    "Julen": false,
-    "Ander": false
+    "Iker": true,
+    "Dani": true,
+    "Lander": true,
+    "Julen": true,
+    "Ander": true
   },
   "habilidades": {
     "Lander": {
