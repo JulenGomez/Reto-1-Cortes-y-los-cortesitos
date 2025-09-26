@@ -33,46 +33,46 @@
     "Lander": {
       "competencias_tecnicas": {
         "ERP/Odoo": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "Se lo que son los ERP y tengo una idea básica de que es Odoo pero no se utilizarlo ni implementarlo",
+          "necesidades": "Necesito aprender prácticamente todo sobre como se utiliza bien Odoo y como implementarlo a nuestros futuros programas."
         },
         "Docker/Contenedores": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "Se crear contenedores y instalar imágenes así como copiar archivos de un contenedor a fuera de el mismo.",
+          "necesidades": "Como usarlo correctamente y que aplicaciones útiles podría tener para nuestros proyectos."
         },
         "Base de datos (Postgres)": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "Tengo nociones básicas sobre como usar bases de datos pero nunca he usado Postgres.",
+          "necesidades": "Necesito aprender las diferencias entre MySQL que es la que se usar y Postgres."
         },
         "Integraciones (Java/Otros)": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "Se programar tanto en Java como en Python.",
+          "necesidades": "Aunque se integrar Python, tengo que aprender como integrar también Java."
         },
         "Gestión del proyecto": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "No suelo hacerlo pero se gestionar bien los proyectos.",
+          "necesidades": "Sobre todo me centro mas en hacerlos que en gestionarlos por que no le doy tanta importancia así que debería aprender a gestionar mejor."
         },
         "Infraestructura/DevOps": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "No se absolutamente nada.",
+          "necesidades": "Que es, como funciona, para que sirve, etc."
         }
       },
       "competencias_transversales": {
         "Comunicación oral": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "Se me da bien hablar.",
+          "necesidades": "Mejorar la expresión corporal."
         },
         "Comunicación escrita": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "Se escribir de formar resumida y esquematica.",
+          "necesidades": "Se me da mal escribir largos textos correctamente."
         },
         "Trabajo en equipo": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": "Se me da bien trabajar en equipo si se reparte el trabajo.",
+          "necesidades": "Se me da mal coordinarme cuando tengo que trabajar con otra persona en la misma parte del proyecto."
         },
         "Competencia personal": {
-          "fortalezas": "a",
-          "necesidades": "a"
+          "fortalezas": " ",
+          "necesidades": " "
         }
       }
     },
