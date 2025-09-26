@@ -36,6 +36,7 @@ const Header = () => {
         <div className="header-item">
           <Link to="/contrato">Firma contrato</Link>
           <Link to="/competencias">Competencias individuales</Link>
+          <Link to="/VerHabilidades">Ver habilidades</Link>
           {/* 🔽 Botón de descarga */}
           <button className="download-btn" onClick={handleDownload}>
             Descargar JSON
