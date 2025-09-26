@@ -4,6 +4,7 @@ import "./template.css";
 const Template = () => {
   const [data, setData] = useState(null);
 
+  // Cargar datos al montar
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -18,6 +19,7 @@ const Template = () => {
     fetchData();
   }, []);
 
+  // Manejar firma de un integrante
   const handleFirmar = async (nombre) => {
     try {
       await fetch("http://127.0.0.1:8000/api/firmar", {
@@ -28,7 +30,7 @@ const Template = () => {
         body: JSON.stringify({ nombre, valor: true }),
       });
 
-      // Refrescar datos después de firmar
+      // Volver a pedir los datos para refrescar el estado
       const response = await fetch("http://127.0.0.1:8000/api/datos");
       const result = await response.json();
       setData(result.datos);
@@ -98,17 +100,29 @@ const Template = () => {
         <div className="row">
           <div className="box large">
             <h2>Firmas</h2>
-            {Object.entries(data["firmas"]).map(([integrante, firmado]) => (
+
+            {Object.entries(data["firmas"]).map(([integrante, info]) => (
               <div key={integrante} className="firma-item">
                 <strong>{integrante}:</strong>{" "}
-                {firmado ? "✔️ Firmado" : "❌ Pendiente"}
-                {!firmado && (
-                  <button
-                    className="firmar-btn"
-                    onClick={() => handleFirmar(integrante)}
-                  >
-                    Firmar
-                  </button>
+                {info.firmado ? (
+                  <>
+                    ✔️ Firmado{" "}
+                    {info.fecha && (
+                      <span style={{ color: "#666", fontSize: "0.9em" }}>
+                        ({info.fecha})
+                      </span>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    ❌ Pendiente{" "}
+                    <button
+                      className="firmar-btn"
+                      onClick={() => handleFirmar(integrante)}
+                    >
+                      Firmar
+                    </button>
+                  </>
                 )}
               </div>
             ))}

@@ -4,6 +4,9 @@ from pydantic import BaseModel
 import json
 from pathlib import Path
 
+from datetime import datetime
+from pydantic import BaseModel
+
 app = FastAPI()
 
 # Configuración CORS
@@ -33,6 +36,7 @@ async def obtener_datos():
     data = load_data()
     return {"mensaje": "Datos enviados correctamente", "datos": data}
 
+
 # Modelo de request para firmar
 class FirmaRequest(BaseModel):
     nombre: str
@@ -43,14 +47,32 @@ async def firmar(req: FirmaRequest):
     data = load_data()
     if "firmas" not in data:
         data["firmas"] = {}
-    
-    # Actualizar firma
-    data["firmas"][req.nombre] = req.valor
-    
+
+    # Si la firma actual es solo True/False, la convertimos en objeto
+    actual = data["firmas"].get(req.nombre)
+    if isinstance(actual, bool):
+        actual = {"firmado": actual, "fecha": None}
+
+    # Actualizar el estado y la fecha
+    if req.valor:
+        # Si firma → guardar fecha actual
+        fecha = datetime.now().strftime("%d-%m-%Y %H:%M")
+    else:
+        # Si desfirma → dejar fecha en None (o podrías mantener la última)
+        fecha = None
+
+    data["firmas"][req.nombre] = {
+        "firmado": req.valor,
+        "fecha": fecha
+    }
+
     # Guardar cambios en el JSON
     save_data(data)
 
-    return {"mensaje": f"Firma actualizada para {req.nombre}", "firmas": data["firmas"]}
+    return {
+        "mensaje": f"Firma actualizada para {req.nombre}",
+        "firmas": data["firmas"]
+    }
 
 
 

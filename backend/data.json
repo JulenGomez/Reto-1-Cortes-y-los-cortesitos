@@ -1,250 +1,265 @@
 {
-    "Quienes somos y que hacemos": "Somos el grupo Cortes y los cortesitos, somos 5 fullstack developers estudiando el modulo de DAM y vamos a desarrollar un proyecto",
-    "Nuestro objetivo": "Desarrollar una aplicacion sobre una idea innovadora",
-    "Nuestros principios": "El trabajo duro, el esfuerzo, la dedicacion, la pasion, ser uno con el codigo y pasarlo bien en el proceso",
-    "Nuestras normas": "Llegar a teimpo a clase, no faltar mas de lo estipulado(10%), entregar tu parte del trabajo",
-    "Cosas que nunca haremos": "Llegar tarde y dejar un trabajo sin entregar",
-    "Como tomamos decisiones": "Cortes decide el destino de los cortesitos",
-    "Que hacemos cuando se rompen las reglas": "comprar una unidad de croquetas de la universidad a cada participante",
-    "Cuando y como pedimos ayuda": "siempre que la necesitamos, pedir ayuda no es malo",
-    "firmas": {
-        "Iker": true,
-        "Dani": true,
-        "Lander": true,
-        "Julen": true,
-        "Ander": true
+  "Quienes somos y que hacemos": "Somos el grupo Cortes y los cortesitos, somos 5 fullstack developers estudiando el modulo de DAM y vamos a desarrollar un proyecto",
+  "Nuestro objetivo": "Desarrollar una aplicacion sobre una idea innovadora",
+  "Nuestros principios": "El trabajo duro, el esfuerzo, la dedicacion, la pasion, ser uno con el codigo y pasarlo bien en el proceso",
+  "Nuestras normas": "Llegar a teimpo a clase, no faltar mas de lo estipulado(10%), entregar tu parte del trabajo",
+  "Cosas que nunca haremos": "Llegar tarde y dejar un trabajo sin entregar",
+  "Como tomamos decisiones": "Cortes decide el destino de los cortesitos",
+  "Que hacemos cuando se rompen las reglas": "comprar una unidad de croquetas de la universidad a cada participante",
+  "Cuando y como pedimos ayuda": "siempre que la necesitamos, pedir ayuda no es malo",
+  "firmas": {
+    "Iker": {
+      "firmado": true,
+      "fecha": "26-09-2025 08:45"
     },
-    "habilidades": {
-        "Lander": {
-            "competencias_tecnicas": {
-                "ERP/Odoo": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Docker/Contenedores": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Base de datos (Postgres)": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Integraciones (Java/Otros)": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Gestión del proyecto": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Infraestructura/DevOps": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                }
-            },
-            "competencias_transversales": {
-                "Comunicación oral": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Comunicación escrita": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Trabajo en equipo": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                },
-                "Competencia personal": {
-                    "fortalezas": "a",
-                    "necesidades": "a"
-                }
-            }
+    "Dani": {
+      "firmado": false,
+      "fecha": null
+    },
+    "Lander": {
+      "firmado": false,
+      "fecha": null
+    },
+    "Julen": {
+      "firmado": false,
+      "fecha": null
+    },
+    "Ander": {
+      "firmado": false,
+      "fecha": null
+    }
+  },
+  "habilidades": {
+    "Lander": {
+      "competencias_tecnicas": {
+        "ERP/Odoo": {
+          "fortalezas": "a",
+          "necesidades": "a"
         },
-        "Ander": {
-            "competencias_tecnicas": {
-                "ERP/Odoo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Docker/Contenedores": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Base de datos (Postgres)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Integraciones (Java/Otros)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Gestión del proyecto": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Infraestructura/DevOps": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            },
-            "competencias_transversales": {
-                "Comunicación oral": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Comunicación escrita": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Trabajo en equipo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Competencia personal": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            }
+        "Docker/Contenedores": {
+          "fortalezas": "a",
+          "necesidades": "a"
         },
-        "Julen": {
-            "competencias_tecnicas": {
-                "ERP/Odoo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Docker/Contenedores": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Base de datos (Postgres)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Integraciones (Java/Otros)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Gestión del proyecto": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Infraestructura/DevOps": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            },
-            "competencias_transversales": {
-                "Comunicación oral": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Comunicación escrita": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Trabajo en equipo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Competencia personal": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            }
+        "Base de datos (Postgres)": {
+          "fortalezas": "a",
+          "necesidades": "a"
         },
-        "Iker": {
-            "competencias_tecnicas": {
-                "ERP/Odoo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Docker/Contenedores": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Base de datos (Postgres)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Integraciones (Java/Otros)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Gestión del proyecto": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Infraestructura/DevOps": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            },
-            "competencias_transversales": {
-                "Comunicación oral": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Comunicación escrita": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Trabajo en equipo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Competencia personal": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            }
+        "Integraciones (Java/Otros)": {
+          "fortalezas": "a",
+          "necesidades": "a"
         },
-        "Daniel": {
-            "competencias_tecnicas": {
-                "ERP/Odoo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Docker/Contenedores": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Base de datos (Postgres)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Integraciones (Java/Otros)": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Gestión del proyecto": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Infraestructura/DevOps": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            },
-            "competencias_transversales": {
-                "Comunicación oral": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Comunicación escrita": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Trabajo en equipo": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                },
-                "Competencia personal": {
-                    "fortalezas": " ",
-                    "necesidades": " "
-                }
-            }
+        "Gestión del proyecto": {
+          "fortalezas": "a",
+          "necesidades": "a"
+        },
+        "Infraestructura/DevOps": {
+          "fortalezas": "a",
+          "necesidades": "a"
         }
+      },
+      "competencias_transversales": {
+        "Comunicación oral": {
+          "fortalezas": "a",
+          "necesidades": "a"
+        },
+        "Comunicación escrita": {
+          "fortalezas": "a",
+          "necesidades": "a"
+        },
+        "Trabajo en equipo": {
+          "fortalezas": "a",
+          "necesidades": "a"
+        },
+        "Competencia personal": {
+          "fortalezas": "a",
+          "necesidades": "a"
+        }
+      }
     },
-    "fecha_actualizacion": "2025-09-25 09:51:32"
+    "Ander": {
+      "competencias_tecnicas": {
+        "ERP/Odoo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Docker/Contenedores": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Base de datos (Postgres)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Integraciones (Java/Otros)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Gestión del proyecto": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Infraestructura/DevOps": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      },
+      "competencias_transversales": {
+        "Comunicación oral": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Comunicación escrita": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Trabajo en equipo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Competencia personal": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      }
+    },
+    "Julen": {
+      "competencias_tecnicas": {
+        "ERP/Odoo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Docker/Contenedores": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Base de datos (Postgres)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Integraciones (Java/Otros)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Gestión del proyecto": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Infraestructura/DevOps": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      },
+      "competencias_transversales": {
+        "Comunicación oral": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Comunicación escrita": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Trabajo en equipo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Competencia personal": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      }
+    },
+    "Iker": {
+      "competencias_tecnicas": {
+        "ERP/Odoo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Docker/Contenedores": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Base de datos (Postgres)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Integraciones (Java/Otros)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Gestión del proyecto": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Infraestructura/DevOps": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      },
+      "competencias_transversales": {
+        "Comunicación oral": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Comunicación escrita": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Trabajo en equipo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Competencia personal": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      }
+    },
+    "Daniel": {
+      "competencias_tecnicas": {
+        "ERP/Odoo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Docker/Contenedores": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Base de datos (Postgres)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Integraciones (Java/Otros)": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Gestión del proyecto": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Infraestructura/DevOps": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      },
+      "competencias_transversales": {
+        "Comunicación oral": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Comunicación escrita": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Trabajo en equipo": {
+          "fortalezas": " ",
+          "necesidades": " "
+        },
+        "Competencia personal": {
+          "fortalezas": " ",
+          "necesidades": " "
+        }
+      }
+    }
+  },
+  "fecha_actualizacion": "2025-09-25 09:51:32"
 }
