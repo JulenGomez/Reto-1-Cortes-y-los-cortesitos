@@ -79,46 +79,46 @@
     "Ander": {
       "competencias_tecnicas": {
         "ERP/Odoo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Las competencias tecnicas de las que dispongo son conocimientos basicos de Python lo que aprendimos a usar de Odoo el curso pasado y lo mismo con React",
+          "necesidades": "Ya que lo que aprendimos fue poco rapido y en poco tiempo me hace falta centrarme mas en cada apartado para aprender a profundidad las competencias tecnicas necesarias"
         },
         "Docker/Contenedores": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Los conocimientos son minimos se hacer lo basico lo mas simple",
+          "necesidades": "Seguir reforzando mis conocimientos con lo que aprendamos mayormente en clase de Che"
         },
         "Base de datos (Postgres)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "En Postgres exactamente no tengo ninguna fortaleza en otras bases de datos regular una vez programe una base de datos para el fichaje de Octe Electric",
+          "necesidades": "Basicamente todo Postgres"
         },
         "Integraciones (Java/Otros)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Diria que me defiendo mejor que en otras cosas de todas las competencias tecnicas mi preferida y donde mas conocimiento y practica tengo",
+          "necesidades": "Perfeccionar puntos sobre todo al conectarlo con bases de datos"
         },
-        "Gestión del proyecto": {
-          "fortalezas": " ",
-          "necesidades": " "
+        "Gestion del proyecto": {
+          "fortalezas": "Personalmente la gestion de los proyectos lo llevo regular aunque intento trabajarlo y mas cuando es en trabajo",
+          "necesidades": "Aprender a planificar tareas coordinar al equipo y organizar el flujo de trabajo"
         },
         "Infraestructura/DevOps": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "No tengo conocimientos",
+          "necesidades": "Aprender que es DevOps como funciona y como aplicarlo en proyectos reales"
         }
       },
       "competencias_transversales": {
-        "Comunicación oral": {
-          "fortalezas": " ",
-          "necesidades": " "
+        "Comunicacion oral": {
+          "fortalezas": "Puedo expresarme bien y participar en reuniones",
+          "necesidades": "Mejorar la seguridad al hablar en publico y la claridad al explicar ideas"
         },
-        "Comunicación escrita": {
-          "fortalezas": " ",
-          "necesidades": " "
+        "Comunicacion escrita": {
+          "fortalezas": "Se escribir de manera clara y resumida",
+          "necesidades": "Mejorar la redaccion de textos largos y documentacion tecnica"
         },
         "Trabajo en equipo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Me adapto bien al equipo y suelo colaborar",
+          "necesidades": "Aprender a coordinar mejor tareas compartidas y resolver conflictos"
         },
         "Competencia personal": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Soy responsable y comprometido con las tareas",
+          "necesidades": "Trabajar en la autoconfianza y gestion del tiempo"
         }
       }
     },
@@ -171,46 +171,46 @@
     "Iker": {
       "competencias_tecnicas": {
         "ERP/Odoo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "No tengo experiencia practica con Odoo pero me interesa aprender rapido",
+          "necesidades": "Aprender desde cero a usar Odoo y entender su implementacion en proyectos reales"
         },
         "Docker/Contenedores": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Tengo conocimientos basicos de informatica y algo de manejo de entornos virtuales",
+          "necesidades": "Aprender a crear administrar y optimizar contenedores Docker para distintos proyectos"
         },
         "Base de datos (Postgres)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "He trabajado con bases de datos sencillas en clase y en proyectos pequenos",
+          "necesidades": "Aprender Postgres y su integracion con aplicaciones ademas de diferenciarlo de MySQL"
         },
         "Integraciones (Java/Otros)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Se algo de programacion en Java y Python a nivel basico",
+          "necesidades": "Aprender a integrar distintos lenguajes y APIs en proyectos colaborativos"
         },
-        "Gestión del proyecto": {
-          "fortalezas": " ",
-          "necesidades": " "
+        "Gestion del proyecto": {
+          "fortalezas": "Tengo nociones basicas de planificacion y organizacion de tareas",
+          "necesidades": "Aprender tecnicas de gestion de proyectos y coordinacion de equipos"
         },
         "Infraestructura/DevOps": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "No tengo experiencia",
+          "necesidades": "Conocer fundamentos de DevOps automatizacion y mantenimiento de infraestructuras"
         }
       },
       "competencias_transversales": {
-        "Comunicación oral": {
-          "fortalezas": " ",
-          "necesidades": " "
+        "Comunicacion oral": {
+          "fortalezas": "Me expreso con claridad y suelo participar en reuniones",
+          "necesidades": "Ganar confianza al hablar en publico y mejorar la persuasión al comunicar ideas"
         },
-        "Comunicación escrita": {
-          "fortalezas": " ",
-          "necesidades": " "
+        "Comunicacion escrita": {
+          "fortalezas": "Puedo redactar textos cortos de manera correcta",
+          "necesidades": "Mejorar la redaccion de informes largos y documentacion tecnica"
         },
         "Trabajo en equipo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Me adapto bien a distintos roles dentro de un equipo",
+          "necesidades": "Aprender a coordinar tareas compartidas y resolver conflictos de forma efectiva"
         },
         "Competencia personal": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Soy responsable y cumplo con los compromisos adquiridos",
+          "necesidades": "Trabajar en la autoconfianza y en la gestion del tiempo"
         }
       }
     },
