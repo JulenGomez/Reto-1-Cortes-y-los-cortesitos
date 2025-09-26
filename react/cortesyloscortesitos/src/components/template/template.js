@@ -47,7 +47,7 @@ const Template = () => {
     <div className="canvas">
       <h1 className="title">Scrum Team Charter Canvas</h1>
       <p className="subtitle">
-        Who we are, what matters to us and how we use Scrum
+        Que nos importa al utilizar Scrum
       </p>
 
       <div className="row">
