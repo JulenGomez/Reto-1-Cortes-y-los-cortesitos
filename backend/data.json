@@ -217,46 +217,46 @@
     "Daniel": {
       "competencias_tecnicas": {
         "ERP/Odoo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Use algo odoo hace dos años en un proyecto de clase, pero cosas muy basicas",
+          "necesidades": "Necesito recordar lo poco que aprendi y aprender a usarlo bien"
         },
         "Docker/Contenedores": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "He empezado este año en clase a usarlo pero en el trabajo creo que tambien lo voy a usar",
+          "necesidades": "Necesito aprender más sobre su implementación y gestión en entornos de producción"
         },
         "Base de datos (Postgres)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "No he usado nunca Postgres como base de datos pero y Mysql y oracle",
+          "necesidades": "Necesito aprender el funcionamiento de Postgres y sus diferencias con Mysql"
         },
         "Integraciones (Java/Otros)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Llevo usando java dos años y en el trbajo he usado algo python",
+          "necesidades": "Nose que lenguaje vamos ha usar pero seguramente aprender mas opciones de integracion"
         },
         "Gestión del proyecto": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Suelo ser tranquilo y organizado, intento saber en todo momento que hace cada uno para organizarme",
+          "necesidades": "Al ser nuevos grupos creo que necesitamos mas conexion entre nosotros y organizarnos mejor"
         },
         "Infraestructura/DevOps": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "No se ni lo que es",
+          "necesidades": "Aprender desde 0 que es y para que sirve"
         }
       },
       "competencias_transversales": {
         "Comunicación oral": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Suelo comunicarme mis opiniones aunque en las presentaciones suelo estar algo nervioso",
+          "necesidades": "Mejorar la expresion corporal y controlar los nervios"
         },
         "Comunicación escrita": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Suelo escribir mis ideas de forma clara y concisa",
+          "necesidades": "Mejorar la estructura y organización de mis escritos, aparte de la ortografía"
         },
         "Trabajo en equipo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Suelo colaborar bien con mis compañeros y aportar ideas",
+          "necesidades": "Mejorar la escucha activa y la empatía hacia los demás"
         },
         "Competencia personal": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Suelo ser autocrítico y buscar mejorar mis habilidades",
+          "necesidades": "Trabajar en mi autoconfianza y en la gestión del estrés"
         }
       }
     }
