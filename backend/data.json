@@ -125,46 +125,46 @@
     "Julen": {
       "competencias_tecnicas": {
         "ERP/Odoo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "La verdad que aun no he gestionado nada con odoo pero en general aprendo rapido ",
+          "necesidades": "aprender a usar odoo "
         },
         "Docker/Contenedores": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "he usado docker previamente para trabajo y proyectos personales ",
+          "necesidades": "quiza dependo demasiado de la interfaz de docker "
         },
         "Base de datos (Postgres)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "he usado otras bases de datos antes y me suele gustar la parte del backend ",
+          "necesidades": "nunca he usado postgres asi que tendre que adaptarme "
         },
         "Integraciones (Java/Otros)": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "considero que se programar decentemente ademas como ya he dicho aprendo rapido ",
+          "necesidades": "aveces dependo demasiado de la ia para aprender nuevas cosas "
         },
         "Gestión del proyecto": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "Suelo colaborar bien con mis compañeros y aportar ideas",
+          "necesidades": "no suelo mantener el orden soy muy desorganizado con las ideas "
         },
         "Infraestructura/DevOps": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "No se absolutamente nada.",
+          "necesidades": "aprender :) "
         }
       },
       "competencias_transversales": {
         "Comunicación oral": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "me comunico bien con mis compañeros y suelo intentar ser agradable ",
+          "necesidades": "no siempre trabajo aveces me distraigo "
         },
         "Comunicación escrita": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "me expreso bien escribiendo ",
+          "necesidades": "entender del todo la importancia de la documentacion "
         },
         "Trabajo en equipo": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "me gusta trabajar en equipo y ayudar a mis compañeros si lo necesitan ",
+          "necesidades": "suelo frustrarme cuando las cosas no salen bien "
         },
         "Competencia personal": {
-          "fortalezas": " ",
-          "necesidades": " "
+          "fortalezas": "en general considero que soy bastante buen compañero ",
+          "necesidades": "me sulo frustrar y me distraigo facil "
         }
       }
     },
