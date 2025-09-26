@@ -21,12 +21,12 @@
       "fecha": "26-09-2025 08:59"
     },
     "Julen": {
-      "firmado": false,
-      "fecha": null
+      "firmado": true,
+      "fecha": "26-09-2025 09:01"
     },
     "Ander": {
-      "firmado": false,
-      "fecha": null
+      "firmado": true,
+      "fecha": "26-09-2025 09:01"
     }
   },
   "habilidades": {

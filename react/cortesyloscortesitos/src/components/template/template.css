@@ -1,55 +1,61 @@
+/* Contenedor principal */
 .canvas {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background: #fafafa;
-  color: #333;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f0f4ff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 128, 0.08);
+  font-family: "Inter", sans-serif;
 }
 
+/* Títulos principales */
 .title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 5px;
+  text-align: center;
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
 }
 
 .subtitle {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #666;
+  text-align: center;
+  font-size: 1rem;
+  color: #1e40af;
+  margin-bottom: 2rem;
 }
 
+/* Filas y columnas */
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
-  gap: 10px;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .col {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
   flex: 1;
 }
 
+/* Bloques de contenido */
 .box {
-  background: #fff;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 6px;
+  background-color: #e0efff;
+  border: 1px solid #3b82f6;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
   flex: 1;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.box h2 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #222;
+.box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.15);
 }
 
-.box p {
-  font-size: 14px;
-  line-height: 1.4;
-}
-
+/* Tamaños de bloques */
 .box.large {
   flex: 2;
 }
@@ -58,6 +64,61 @@
   flex: 1;
 }
 
-.scrum .box {
-  flex: 1;
+/* Subtítulos dentro de bloques */
+.box h2 {
+  font-size: 1.25rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #93c5fd;
+  padding-bottom: 0.25rem;
+}
+
+.box p {
+  font-size: 0.95rem;
+  color: #1f2937;
+  margin: 0.25rem 0;
+}
+
+/* Firmas */
+.firma-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #cfe0ff;
+  font-size: 0.95rem;
+  color: #1f2937;
+}
+
+.firma-item:last-child {
+  border-bottom: none;
+}
+
+.firmar-btn {
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.firmar-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Estado de la firma */
+.firma-item span {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Adaptabilidad móvil */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
 }
